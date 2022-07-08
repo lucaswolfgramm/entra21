@@ -12,7 +12,7 @@ namespace exercicios_exemplo
 
         }
 
-        private void btnSair_Click(object sender, EventArgs e)
+        private void btnSair_Click_1(object sender, EventArgs e)
         {
             Close();
         }
@@ -27,13 +27,11 @@ namespace exercicios_exemplo
                 MessageBox.Show("INFORMOU POSITIVO");
         }
 
-
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
             string nome;
             nome = txbNome.Text;
             MessageBox.Show("Olá " + nome);
         }
-
     }
 }

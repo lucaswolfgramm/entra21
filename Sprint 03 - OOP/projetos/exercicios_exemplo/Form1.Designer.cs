@@ -90,9 +90,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::exercicios_exemplo.Properties.Resources._1373255;
-            this.pictureBox1.Location = new System.Drawing.Point(314, 83);
+            this.pictureBox1.Location = new System.Drawing.Point(313, 72);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(65, 58);
+            this.pictureBox1.Size = new System.Drawing.Size(82, 78);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -106,6 +106,7 @@
             this.btnConfirmar.TabIndex = 6;
             this.btnConfirmar.Text = "&CONFIRMAR";
             this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // btnVerificar
             // 
@@ -116,6 +117,7 @@
             this.btnVerificar.TabIndex = 7;
             this.btnVerificar.Text = "&VERIFICAR";
             this.btnVerificar.UseVisualStyleBackColor = true;
+            this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
             // 
             // btnSair
             // 
@@ -126,6 +128,7 @@
             this.btnSair.TabIndex = 8;
             this.btnSair.Text = "&SAIR";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click_1);
             // 
             // Form1
             // 
