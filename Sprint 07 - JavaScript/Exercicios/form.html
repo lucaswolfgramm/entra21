@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            margin-left: 25%;
+        }
+
+        .input-form {
+            padding: 10px;
+        }
+
+        #toaster {
+            position: absolute;
+            right: 10px;
+            top: 10px
+        }
+    </style>
+</head>
+<body>
+    <form name="form-login">
+        <div class="input-form">
+            <label>Login:</label>
+            <input id="login" type="text" onblur="validaLogin(this)">
+        </div>
+        <div class="input-form">
+            <label>Senha:</label>
+            <input id="senha" type="password" onblur="validaSenha(this)">
+        </div>
+        <div class="input-form">
+            <button id="button-entrar" type="button" onclick="realizarLogin()">Entrar</button>
+        </div>
+    </form>
+    
+    <script type="text/Javascript">
+        
+        const testeVerificarLogin = (login, senha) => {
+            const buttonEntrar = document.getElementById("button-entrar");
+            limparErros(buttonEntrar);
+
+            const toaster = document.getElementsByClassName("toaster");
+            for (let index = 0; index < toaster.length; index++) {
+                toaster[index].remove();
+            }
+
+            if (login.toLowerCase() == 'maria@asdrubal.corp'.toLowerCase() && senha == 'asd@159rt'){
+
+                /*const formLogin = document.getElementsByName('form-login');
+                formLogin[0].remove();*/
+                                
+                const body = document.getElementsByTagName("body");
+                body[0].innerHTML += 
+                                    '<div id="toaster" class="toaster">' +
+                                    '   <div class="toast align-items-center text-white bg-primary border-0 fade show" role="alert" aria-live="assertive" aria-atomic="true">' +
+                                    '        <div class="d-flex">' +
+                                    '            <div class="toast-body">' +
+                                    '               Bem vindo Maria, você está logada.' +
+                                    '            </div>' +
+                                    '            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>' +
+                                    '        </div>' +
+                                    '    </div>' +
+                                    '</div>';
+            } else {
+                buttonEntrar.parentNode.innerHTML += '<span class="alerta" style="color: red;">Credenciais inválidas</span>';
+            }
+        };
+        
+        const limparErros = (elemento) => {
+            const parent = elemento.parentNode.getElementsByClassName("alerta");
+            for (i = 0; i < parent.length; i++) {
+                parent[i].remove();
+            }
+            elemento.style.borderColor = '';
+            elemento.style.color = '';
+        };
+
+        const validaLogin = (inputLogin) => {
+            const login = inputLogin.value;
+            
+            limparErros(inputLogin);
+
+            if (!login.includes('@') || !login.includes('.')) {
+                inputLogin.style.borderColor = "red";
+                inputLogin.style.color = "red";
+                inputLogin.parentNode.innerHTML += '<span class="alerta" style="color: red;">Login incorreto</span>';
+            }
+        };
+
+        const validaSenha = (inputSenha) => {
+            const senha = inputSenha.value;
+            
+            limparErros(inputSenha);
+
+            if (senha == undefined || senha == "") {
+                inputSenha.style.borderColor = "red";
+                inputSenha.style.color = "red";
+                inputSenha.parentNode.innerHTML += '<span class="alerta" style="color: red;">Senha é obrigatória</span>';
+            }
+        };
+
+        const realizarLogin = () => {
+            const inputLogin = document.getElementById("login");
+            const inputSenha = document.getElementById("senha");
+            
+            const login = inputLogin.value;
+            const senha = inputSenha.value;
+
+            validaLogin(inputLogin);
+            validaSenha(inputSenha);
+
+            testeVerificarLogin(login, senha);
+
+            //inputLogin.value = "";
+            //inputSenha.value = "";
+        };
+    </script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Semântica</title>
+    <link rel="stylesheet" href="css/estiloSemantica.css">
+    <script src="jquery.js"></script>
+    <script>
+        $(function(){
+            $("#main-menu").load("navcopy.html");
+        });
+    </script>
+</head>
+<body>
+
+    <div id="main-menu"></div>
+
+    <h1> Elemento DIV</h1>
+    <div class="myDiv"> 
+        <h2>Subtitulo da Div</h2>
+        <p>Este é um texto da div</p>
+    </div>   
+
+    <button type="checkbox"> Clique aqui ...</button>
+    <p>Este texto esta fora da div</p>
+
+    <input type="checkbox" id="btnControlTestes">
+    <label class="btn-testes" for="btnControlTestes">Testes</p>
+
+    <input type="checkbox" id="btnControl" >
+    <label class="btn" for="btnControl">Teste<img src="img/estudantes.png" id="btnLeft" /></label>
+
+    <div class="myDiv2"> 
+        <h2>Subtitulo da Div</h2>
+        <p>Este é um texto da div</p>
+    </div>
+</body>
+</html>

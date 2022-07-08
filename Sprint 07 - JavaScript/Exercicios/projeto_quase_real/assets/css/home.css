@@ -1,0 +1,43 @@
+#toaster {
+    position: absolute;
+    right: 10px;
+    top: 30px
+}
+
+#home {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#button-sair {
+    position: absolute;
+    right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#filtros {
+    margin: 10px;
+}
+
+[class*="selected"] {
+    background-color: skyblue;
+}
+
+#lista-produtos {
+    display: flex;
+    
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+#lista-produtos .produto {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    align-items: center !important;
+}
+

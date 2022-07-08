@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="paginaCarregada()">
+    <header id="cabecalho"
+        onmouseover="efeito_no_header(this)" onmouseleave="efeito_no_header_normal(this)">
+        <h1 onclick="clickNoCabecalho()">Cabeçalho</h1>
+    </header>
+    <aside class="aside">
+        <button 
+            type="button"
+            onclick="trocar_cabecalho()"> 
+            Trocar cabecalho
+        </button>
+
+        <button 
+            type="button"
+            onclick="resetar_contador()"> 
+            Zerar contador
+        </button>
+    </aside>
+    <footer class="aside"><h1>Rodape</h1></footer>
+   
+    <script type="text/javascript">
+        const paginaCarregada = () => {
+            //alert('A página carregou!')
+            const elemento = document.getElementsByClassName("aside");
+            for (i = 0; i <= (elemento.length+1); i++) {
+                elemento[i].style.display = 'none';
+            }
+        };
+        const efeito_no_header = (element) => {
+            //console.log(element);
+            element.style.color = "#01ab67";
+            //Usado para trocar apenas o texto
+            //element.innerText = "Mouse entrou!"
+            //usado para imbutir um novo elemento html
+            //element.innerHTML = "<h1> Mouse Entrou!</h1>";
+        }
+
+        let contador = 0;
+        const trocar_cabecalho = () => {
+            let cabecalho = document.getElementById('cabecalho');
+            contador = contador + 1;
+            cabecalho.innerHTML = `<h1>Mudou ${contador}!</h1>`
+        }
+
+        const resetar_contador = () => {
+            contador = 0;
+            cabecalho.innerHTML = `<h1>Mudou ${contador}!</h1>`
+        }
+
+        const efeito_no_header_normal = (element) => {
+            element.style.color = "#000";
+            element.innerHTML = "<h1> Mouse saiu!</h1>";
+        }
+
+        const clickNoCabecalho = () => {
+            alert('Você fez um clique no cabeçalho');
+        };
+    </script>
+</body>
+</html>

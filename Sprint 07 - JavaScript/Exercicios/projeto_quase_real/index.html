@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <form class="form-login">
+            <div class="row-input-form">
+                <label>Login
+                    <input type="text" id="login" name="login">
+                </label>
+            </div>
+            <div class="row-input-form">
+                <label for="senha">Senha
+                    <input type="password" id="senha">
+                </label>
+            </div>
+            <div class="row-input-form">
+                <button type="button" id="button-entrar" onclick="realizarLogin()">Entrar</button>
+                <div id="div-alert" style="display: none;">
+                    <span class="alerta" style="color: red;">Credenciais inválidas</span>
+                </div>
+            </div>
+            <div class="row-links-form">
+                <a href="#">Esqueci a senha</a>
+                <a href="#">Cadastre-se</a>
+            </div>
+        </form>
+    </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/default.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/login.css">
+
+    <script type="text/javascript" src="./assets/js/login.js"></script>
+</body>
+
+</html>

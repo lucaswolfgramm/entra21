@@ -1,0 +1,15 @@
+table, th, td {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+table th {
+    background-color: gainsboro;
+}
+table tr {
+    text-align: center;
+}
+
+table td:hover {
+    background-color: seagreen;
+}

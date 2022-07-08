@@ -1,0 +1,43 @@
+.myDiv{
+    border: 5px outset red;
+    border-radius: 10px;
+    background-color: lightcoral;
+    text-align: left;
+    color: yellow;
+}
+
+.myDiv2{
+    border: 5px dotted red;
+    border-radius: 10px;
+    background-color: blue;
+    text-align: left;
+    color: yellow;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: outset palegreen;
+}
+
+button:active {
+    color: palegreen;
+}
+
+#btnControl {
+    display: none;
+}
+
+label > img {
+    width: 250px;
+    height: 150px;
+}
+
+#btnControl:checked + label > img {
+    width: 350px;
+    height: 250px;
+}
+
+#btnControlTestes:checked + .btn-testes {
+    color: crimson;
+}

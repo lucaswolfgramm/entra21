@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+        <link rel="stylesheet" href="css/estiloFormularios.css">
+
+        <script>
+            function dadosEnviados() {  
+                alert("Dados enviados com sucesso!");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <section>
+            <form class="form">
+                <div class="inputs">
+                    <label for="nome">Primeiro nome:</label>
+                    <input type="text" id="input-nome" name="nome">
+                </div>
+                <div class="inputs">
+                    <label>Último nome:</label>
+                    <input type="text" id="input-sobrenome">
+                </div>
+            </form>
+            <input type="button" class="enviar" value="Enviar" onclick="dadosEnviados()">
+            <button name="envair-2" value="Envair2" onclick="dadosEnviados()">Enviar 2</button>    
+        </section>
+
+        <form class="percepcaoSite">
+            <h3>O que você achou do site?</h3>
+            <div class="opcoes">
+                <input type="radio" name="percepcaoSite" value="muitoBom">Muito Bom</input>
+                <input type="radio" name="percepcaoSite" value="bom">Bom</input>
+                <input type="radio" name="percepcaoSite" value="regular">Regular</input>
+            </div>
+        </form>
+
+        <form class="climaHoje">
+            <h3>Como esta o clima hoje?</h3>
+            <div class="opcoes">
+                <input type="radio" name="percepcaoSite" value="sol">Sol</input>
+                <input type="radio" name="percepcaoSite"value="chuva">Chuva</input>
+                <input type="radio" name="percepcaoSite"value="nevoeiro">Nevoeiro</input>
+                <input type="radio" name="percepcaoSite"value="granizo">Granizo</input>
+            </div>
+        </form>
+
+        <form class="secaoCinema">
+            <h3>Qual a seção que você mais gostou?</h3>
+            <div class="opcoes">
+                <select name="secao">
+                    <option value="cartaz">Em cartaz</option>
+                    <option value="animacao">Animação</option>
+                    <option value="romance">Romance</option>
+                </select>
+                <label for="outraOpcao">Outra:</label>
+                <input type="text" name="outraOpcao"></input>
+            </div>
+        </form>
+
+        <form class="comentarios">
+            <h3>Digite comentários no campo abaixo:</h3>
+            <div class="opcoes">
+                <textarea name="comentarios"></textarea>
+            </div>
+        </form>
+
+        <form class="dadosPessoais">
+            <h3>Digite como entrar em contato com você:</h3>
+            <div class="opcoes">
+                <div>
+                    <label for="nome2">Nome: 
+                        <div>
+                            <input type="text" name="nome2">
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <label for="email">E-mail: 
+                        <div>
+                            <input type="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <label for="fone">Fone: 
+                        <div>
+                            <input type="tel" name="fone">
+                        </div>
+                    </label>
+                </div>
+            </div>
+            --------
+            <table>
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text" name="nome3"></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Fone:</td>
+                    <td><input type="tel" name="fone"></td>
+                </tr>
+            </table>
+        </form>
+
+        <form class="dadosPessoais2">
+            <div class="container">
+                <label for="nome2">First name:
+                    <input type="text" name="nome2">
+                </label>
+                <label for="email">Last name:
+                    <input type="email" name="email">
+                </label>
+                <label for="fone">Fone:
+                    <input type="tel" name="fone">
+                </label>
+            </div>
+        </form>
+
+        <form class="comentarios">
+            <div class="opcoes">
+                <input type="checkbox" name="nome2">Quero receber as novidades do site por e-mail</input>
+            </div>
+        </form>
+
+        <div class="rodape">
+            <input type="submit" class="submeter" value="Submeter" onclick="dadosEnviados()">
+            <input type="reset" class="button-limpar" value="Limpar">
+        </div>
+    </body>
+</html>

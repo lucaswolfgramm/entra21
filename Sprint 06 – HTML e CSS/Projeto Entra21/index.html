@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Grupo Prestes - Soluções em Logística">
+  <meta name="keywords" content="O Grupo Prestes atua no transporte de resíduos, cargas fracionadas e transporte rodovíario de cargas em geral. ">
+  <meta name="author" content="Lucas Wolfgramm">
+  <title>Grupo Prestes</title>
+
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="dados.js"></script>
+  <script src="modal.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#header").load("header.html");
+      $("#sectionCarousel").load("carousel.html");
+      $("#footer").load("footer.html");
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) {
+          document.getElementById('containerHeader').classList.add('fixed-top');
+          // add padding top to show content behind navbar
+          navbar_height = document.querySelector('.containerHeader').offsetHeight;
+          document.body.style.paddingTop = navbar_height + 'px';
+        } else {
+          document.getElementById('containerHeader').classList.remove('fixed-top');
+          // remove padding top from body
+          document.body.style.paddingTop = '0';
+        }
+      });
+    });
+  </script>
+  <style>
+    [class*="divButton"] {
+      justify-content: center !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header"></div>
+  <div id="nav"></div>
+
+  <section id="sectionCarousel"></section>
+
+  <section id="empresasGrupo">
+    <h2 class="sectionTitle display-6 fw-bold">Empresas do Grupo</h2>
+    <hr class="small">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="divGroup row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="divContent col-10 col-sm-8 col-lg-6">
+          <img src="img/ji-transportes-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+            height="500" loading="lazy">
+        </div>
+        <div class="divContent col-lg-6">
+          <h3 class="display-7 fw-bold lh-1 mb-3">JI TRANSPORTADORA</h3>
+          <p class="lead">Criada em 06 de setembro de 1995, empresa familiar fundada pelo empresário IRANI BERNARDO
+            PRESTES, atua no transporte de cargas. Há mais de vinte e cinco anos no mercado.</p>
+          <div class="divButton d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" onclick="createModal(1)" class="btn btn-primary btn-lg px-4 me-md-2">Saiba
+              mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="divGroup row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="divContent col-10 col-sm-8 col-lg-6">
+          <img src="img/prestes-transportes-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+            width="700" height="500" loading="lazy">
+        </div>
+        <div class="divContent col-lg-6">
+          <h3 class="display-7 fw-bold lh-1 mb-3">PRESTES TRANSPORTES</h3>
+          <p class="lead">Criada em 2009 para atuar em processos licitatórios, neste segmento a empresa atende à ECT –
+            Empresa Brasileira de Correios e Telégrafos em Santa Catarina no transporte de cargas fracionadas.</p>
+          <div class="divButton d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" onclick="createModal(2)" class="btn btn-primary btn-lg px-4 me-md-2">Saiba
+              mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="divGroup row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="divContent col-10 col-sm-8 col-lg-6">
+          <img src="img/ibp-transportes-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+            height="500" loading="lazy">
+        </div>
+        <div class="divContent col-lg-6">
+          <h3 class="display-7 fw-bold lh-1 mb-3">IBP TRANSPORTES</h3>
+          <p class="lead" style="text-align: center;">A empresa atua em transportes rodoviários de cargas em geral.</p> 
+          <div class="divButton d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" onclick="createModal(3)" class="btn btn-primary btn-lg px-4 me-md-2">Saiba
+              mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2 class="sectionTitle display-6 fw-bold">Sobre o Grupo</h2>
+    <hr class="small">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="divGroup row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="divContent col-10 col-sm-8 col-lg-6">
+          <img id="imgSobre" src="img/grupo-prestes.png" class="img-fluid" width="700" height="500" loading="lazy">
+        </div>
+        <div class="divContent col-lg-6">
+          <p class="lead">GRUPO PRESTES sediada em Joinville/SC, atualmente o grupo opera com três empresas, totalizando
+            em uma frota de vinte e um veículos no ramo de transportes de cargas, transportes rodoviários de resíduos
+            tipo II e aluguéis de equipamentos para coleta de resíduos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2 class="sectionTitle display-6 fw-bold">Contato</h2>
+    <hr class="small">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228943.62670994812!2d-48.995312591086055!3d-26.286183483571204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deafdc40afbc4b%3A0x4b39d148cac10ae7!2sJoinville%20-%20Pirabeiraba%2C%20Joinville%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1654043634384!5m2!1spt-BR!2sbr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal-custom"></div>
+
+  <div id="footer"></div>
+</body>
+
+</html>

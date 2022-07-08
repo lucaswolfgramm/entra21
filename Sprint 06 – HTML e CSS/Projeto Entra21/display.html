@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            outline: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        
+        [class*="bloco"] {
+            display: block;
+            border-radius: 5px;
+            width: 200px;
+            height: 100px;
+        }
+
+        .bloco1 {
+            background-color: aqua;
+        }
+        .bloco2 {
+            background-color: rgb(35, 196, 14);
+        }
+        .bloco3 {
+            background-color: burlywood;
+        }
+        [class*="bloco"]:hover {
+            background-color: black;
+            color: blanchedalmond;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bloco1">
+            Bloco 1<div class="bloco2">
+                Bloco 2<div class="bloco3">
+                    Bloco 3
+                </div>
+            </div>
+        </div>
+        <div class="bloco2">
+            Bloco 2<div class="bloco3">
+                Bloco 3
+            </div>
+        </div>
+        <div class="bloco3">
+            Bloco 3
+        </div>
+    </div>
+</body>
+</html>

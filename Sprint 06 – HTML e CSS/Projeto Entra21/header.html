@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Header</title>
+    <style>
+        header-main {
+            color: red;
+        }
+        article {
+            color: blue;
+        }
+        .titulo {
+            background-color: chartreuse;
+        }
+        main {
+            background-color: cadetblue;
+        }
+        .rodape {
+            background-color: coral;
+        }
+        aside {  
+            width: 30%;
+            float: right;
+            background-color: lightgray;
+
+            margin-top: 10px; /* altura que está do topo */
+            top: 50px;
+            position: sticky;
+        }
+    </style>
+    <script>
+        function gerarConteudo(){
+            let text = "Hello world!";
+            let result = text.repeat(20);
+            document.getElementById("demo").innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <header class="titulo">
+        <h1>Título principal</h1>
+    </header>
+    <aside><p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p></aside>
+    <main>
+        <section>
+            <header>Cabeçalho da Section</header>
+            <article>
+                <h1>Cabeçalho do Artigo</h1>
+                <p>Assunto para preencher a tela</p>
+            </article>
+            <article>
+                <h1>Cabeçalho do Artigo 2</h1>
+                <p>Assunto para preencher a tela</p>
+            </article>
+            
+            <p id="demo"></p>
+            
+            <script>
+                let text = "Texto para preencher a tela <br>";
+                let result = text.repeat(60);
+                
+                document.getElementById("demo").innerHTML = result;
+            </script>
+
+            <footer> Rodapé da minha section</footer>
+        </section>
+    </main>
+    <footer class="rodape">
+       <h6>Desenvolvido por Wolfgramm SA</h6> 
+    </footer>
+</body>
+</html>

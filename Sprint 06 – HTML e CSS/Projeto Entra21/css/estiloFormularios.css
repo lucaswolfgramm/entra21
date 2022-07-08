@@ -1,0 +1,45 @@
+form{
+    padding-top: 10px;
+}
+
+.inputs{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.inputs label, form > div.opcoes label{
+    margin: 0 0 5px 0;
+    display: block;
+}
+
+form > div.opcoes {
+    margin: 0 0 0 20px;
+}
+
+.dadosPessoais .opcoes > div{
+    display: block;
+    margin-left: 10px;
+}
+
+.dadosPessoais2 {
+    text-align: left;
+    padding-right: 80%;
+    left: 0;
+    right: 0;
+    top: 0;
+ }
+
+.dadosPessoais2 > .container > label {
+    text-align: right;
+    display: block;
+    padding: 5px;
+}
+
+textarea {
+    width: 50%;
+    max-width: 80%;
+}
+
+section .enviar, .rodape input {
+    margin-top: 10px;
+}
