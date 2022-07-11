@@ -16,3 +16,4 @@ C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\exercicios_exemplo\obj\D
 C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\exercicios_exemplo\obj\Debug\net6.0-windows\exercicios_exemplo.pdb
 C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\exercicios_exemplo\obj\Debug\net6.0-windows\exercicios_exemplo.genruntimeconfig.cache
 C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\exercicios_exemplo\obj\Debug\net6.0-windows\ref\exercicios_exemplo.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\exercicios_exemplo\obj\Debug\net6.0-windows\exercicios_exemplo.Form2.resources

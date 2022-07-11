@@ -25,13 +25,37 @@ namespace exercicios_exemplo
                 MessageBox.Show("INFORMOU NEGATIVO");
             else
                 MessageBox.Show("INFORMOU POSITIVO");
+            label4.Visible = true;
+            txbResultado.Visible = true;
+            txbResultado.Text = num.ToString();
+
         }
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
             string nome;
             nome = txbNome.Text;
-            MessageBox.Show("Olá " + nome);
+            MessageBox.Show("Olá " + nome, "Tela de Boas-Vindas");
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            label4.Visible = false;
+            txbResultado.Visible = false;
+            txbResultado.Text = "";
+            txbNome.Text = "";
+            txbNumero.Text = "";
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
