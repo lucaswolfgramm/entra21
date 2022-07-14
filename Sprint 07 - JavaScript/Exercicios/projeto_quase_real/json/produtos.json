@@ -22,23 +22,23 @@
     },
     {
         "produto": "Produto 04",
-        "preco": 3.65,
+        "preco": 3.70,
         "descricao": "Lorem ipsum!",
         "em_estoque": true,
         "img": "assets/img/semImagem.jpg"
     },
     {
         "produto": "Produto 05",
-        "preco": 100.00,
+        "preco": 100.05,
         "descricao": "Lorem ipsum! Not ipsum!",
         "em_estoque": false,
         "img": "assets/img/semImagem.jpg"
     },
     {
         "produto": "Produto 06",
-        "preco": 0.90,
+        "preco": 0.95,
         "descricao": "Prod 03 Lorem ipsum! Not ipsum!",
-        "em_estoque": false,
+        "em_estoque": true,
         "img": "assets/img/semImagem.jpg"
     }
 ]
