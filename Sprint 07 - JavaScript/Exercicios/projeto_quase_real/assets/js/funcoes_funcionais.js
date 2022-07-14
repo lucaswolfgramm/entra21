@@ -44,6 +44,10 @@ const vetorProduto =
         }
     ];
 
+let vetorProdutoAlterado = vetorProduto;    
+let simboloMonetario = "R$ ";
+console.log(vetorProdutoAlterado);
+
 const exibirProdutos = (vetor) => {
     divListaProdutos.innerText = "";
     for (let elemento of vetor) {
@@ -51,7 +55,7 @@ const exibirProdutos = (vetor) => {
             <div class="produto">
                 <h1>${elemento.produto}</h1>
                 <p>${elemento.descricao}</p>
-                <h5>R$ ${elemento.preco.toFixed(2)}</h5>
+                <h5 class="preco-produto">R$ ${elemento.preco.toFixed(2).replace(".", ",")}</h5>
             </div>
         `;
 
@@ -68,7 +72,7 @@ const emEstoque = ((elemento) => {
 });
 
 const converterDolar = (elemento) => {
-    const newElemento = elemento;
+    const newElemento = {...elemento};
     newElemento.preco = newElemento.preco / 5.43;
     return newElemento;
 }
@@ -88,7 +92,8 @@ const somaPreco = (totalizador, elemento) => {
 const divListaProdutos = document.getElementById('lista-produtos');
 
 const resetarFiltro = (elemento, elementText) => {
-    exibirProdutos(vetorProduto);
+    vetorProdutoAlterado = vetorProduto;
+    exibirProdutos(vetorProdutoAlterado);
     elemento.className = elemento.className.replace('-selected', '');
     elemento.innerText = elementText;
 };
@@ -104,19 +109,21 @@ const btnFiltraApenasEstoque = document.getElementById('filtroApenasEstoque');
 btnFiltraApenasEstoque.onclick = () => {
     let buttonSelected = document.getElementById('filtroApenasEstoque').classList.contains('filtro-selected');
     if (buttonSelected == false) {
-        const vetorFiltrado = vetorProduto.filter(emEstoque);
-        aplicarFiltro(vetorFiltrado, btnFiltraApenasEstoque, "Filtrar apenas em Estoque");
-        carregarMediaPrecos(vetorFiltrado);
+        vetorProdutoAlterado = vetorProdutoAlterado.filter(emEstoque);
+        aplicarFiltro(vetorProdutoAlterado, btnFiltraApenasEstoque, "Filtrar apenas em Estoque");
+        carregarMediaPrecos(vetorProdutoAlterado);
     } else {
+        vetorProdutoAlterado = vetorProduto;
         resetarFiltro(btnFiltraApenasEstoque, "Remover Apenas em Estoque");
+        carregarMediaPrecos(vetorProdutoAlterado);
     }
 };
 
 const carregarMediaPrecos = (vetor) => {
     const elementoMediaPrecos = document.getElementById('mediaPrecos');
-    const soma_preco = vetor.reduce(somaPreco, 0);
+    const soma_preco = vetorProdutoAlterado.reduce(somaPreco, 0);
 
-    elementoMediaPrecos.innerText = 'Média dos preços: ' + (soma_preco / vetor.length).toFixed(2);
+    elementoMediaPrecos.innerText = 'Média dos preços: ' + simboloMonetario + (soma_preco / vetorProdutoAlterado.length).toFixed(2).replace(".", ",");
 };
 
 const filtroExibirPrecosEmDolar = document.getElementById('exibirPrecosEmDolar');
@@ -124,9 +131,23 @@ const filtroExibirPrecosEmDolar = document.getElementById('exibirPrecosEmDolar')
 filtroExibirPrecosEmDolar.onclick = () => {
     let buttonSelected = document.getElementById('exibirPrecosEmDolar').classList.contains('filtro-selected');
     if (buttonSelected == false) {
-        aplicarFiltro(vetorProduto.map(converterDolar), filtroExibirPrecosEmDolar, "Aplicar preço em Real");
+        simboloMonetario = "$ ";
+        vetorProdutoAlterado = vetorProdutoAlterado.map(converterDolar);
+
+        aplicarFiltro(vetorProdutoAlterado, filtroExibirPrecosEmDolar, "Aplicar preço em Real");
+        carregarMediaPrecos(vetorProdutoAlterado);
+        
+        
+        const precos = document.getElementsByClassName("preco-produto");
+        for (i=0; i < precos.length; i++) {
+            const texto = precos[i].textContent;
+            precos[i].innerText = texto.replace(",", ".").replace("R$", "$");
+        }
     } else {
+        simboloMonetario = "R$ ";
+        //vetorProdutoAlterado = vetorProduto;
         resetarFiltro(filtroExibirPrecosEmDolar, "Aplicar preço em dolar");
+        carregarMediaPrecos(vetorProdutoAlterado);
     }
 };
 
