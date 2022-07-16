@@ -1,0 +1,17 @@
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\bin\Debug\net6.0-windows\calculadoraSimples.exe
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\bin\Debug\net6.0-windows\calculadoraSimples.deps.json
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\bin\Debug\net6.0-windows\calculadoraSimples.runtimeconfig.json
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\bin\Debug\net6.0-windows\calculadoraSimples.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\bin\Debug\net6.0-windows\calculadoraSimples.pdb
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.csproj.AssemblyReference.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.Form1.resources
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.csproj.GenerateResource.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.AssemblyInfoInputs.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.AssemblyInfo.cs
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.csproj.CoreCompileInputs.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\refint\calculadoraSimples.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.pdb
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\calculadoraSimples.genruntimeconfig.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\OOP\projetos\calculadoraSimples\obj\Debug\net6.0-windows\ref\calculadoraSimples.dll

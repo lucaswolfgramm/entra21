@@ -1,6 +1,6 @@
 ﻿namespace calculadora
 {
-    partial class Form1
+    partial class calculadoraForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(calculadoraForm));
             this.um = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.tres = new System.Windows.Forms.Button();
@@ -52,7 +53,7 @@
             this.clean = new System.Windows.Forms.Button();
             this.clean2 = new System.Windows.Forms.Button();
             this.porcentagem = new System.Windows.Forms.Button();
-            this.tela = new System.Windows.Forms.TextBox();
+            this.txtVisor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // um
@@ -66,6 +67,7 @@
             this.um.TabIndex = 0;
             this.um.Text = "1";
             this.um.UseVisualStyleBackColor = false;
+            this.um.Click += new System.EventHandler(this.um_Click);
             // 
             // button1
             // 
@@ -78,6 +80,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "2";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tres
             // 
@@ -90,6 +93,7 @@
             this.tres.TabIndex = 2;
             this.tres.Text = "3";
             this.tres.UseVisualStyleBackColor = false;
+            this.tres.Click += new System.EventHandler(this.tres_Click);
             // 
             // zero
             // 
@@ -114,6 +118,7 @@
             this.soma.TabIndex = 4;
             this.soma.Text = "+";
             this.soma.UseVisualStyleBackColor = false;
+            this.soma.Click += new System.EventHandler(this.soma_Click);
             // 
             // virgula
             // 
@@ -150,6 +155,7 @@
             this.resultado.TabIndex = 7;
             this.resultado.Text = "=";
             this.resultado.UseVisualStyleBackColor = false;
+            this.resultado.Click += new System.EventHandler(this.resultado_Click);
             // 
             // subtracao
             // 
@@ -174,6 +180,7 @@
             this.quatro.TabIndex = 14;
             this.quatro.Text = "4";
             this.quatro.UseVisualStyleBackColor = false;
+            this.quatro.Click += new System.EventHandler(this.quatro_Click);
             // 
             // seis
             // 
@@ -186,6 +193,7 @@
             this.seis.TabIndex = 13;
             this.seis.Text = "6";
             this.seis.UseVisualStyleBackColor = false;
+            this.seis.Click += new System.EventHandler(this.seis_Click);
             // 
             // multiplicacao
             // 
@@ -210,6 +218,7 @@
             this.cinco.TabIndex = 11;
             this.cinco.Text = "5";
             this.cinco.UseVisualStyleBackColor = false;
+            this.cinco.Click += new System.EventHandler(this.cinco_Click);
             // 
             // nove
             // 
@@ -222,6 +231,7 @@
             this.nove.TabIndex = 10;
             this.nove.Text = "9";
             this.nove.UseVisualStyleBackColor = false;
+            this.nove.Click += new System.EventHandler(this.nove_Click);
             // 
             // oito
             // 
@@ -234,6 +244,7 @@
             this.oito.TabIndex = 9;
             this.oito.Text = "8";
             this.oito.UseVisualStyleBackColor = false;
+            this.oito.Click += new System.EventHandler(this.oito_Click);
             // 
             // sete
             // 
@@ -244,8 +255,9 @@
             this.sete.Name = "sete";
             this.sete.Size = new System.Drawing.Size(61, 55);
             this.sete.TabIndex = 8;
-            this.sete.Text = "7";
+            this.sete.Text = "&7";
             this.sete.UseVisualStyleBackColor = false;
+            this.sete.Click += new System.EventHandler(this.sete_Click);
             // 
             // divisao
             // 
@@ -343,20 +355,23 @@
             this.porcentagem.Text = "%";
             this.porcentagem.UseVisualStyleBackColor = false;
             // 
-            // tela
+            // txtVisor
             // 
-            this.tela.Location = new System.Drawing.Point(14, 50);
-            this.tela.Multiline = true;
-            this.tela.Name = "tela";
-            this.tela.Size = new System.Drawing.Size(262, 100);
-            this.tela.TabIndex = 24;
+            this.txtVisor.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtVisor.Location = new System.Drawing.Point(14, 50);
+            this.txtVisor.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
+            this.txtVisor.Multiline = true;
+            this.txtVisor.Name = "txtVisor";
+            this.txtVisor.Size = new System.Drawing.Size(262, 47);
+            this.txtVisor.TabIndex = 24;
+            this.txtVisor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // Form1
+            // calculadoraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(288, 529);
-            this.Controls.Add(this.tela);
+            this.Controls.Add(this.txtVisor);
             this.Controls.Add(this.divisao);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.raizQuadrada);
@@ -381,8 +396,10 @@
             this.Controls.Add(this.tres);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.um);
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "calculadoraForm";
             this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.calculadoraForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -414,6 +431,6 @@
         private Button clean;
         private Button clean2;
         private Button porcentagem;
-        private TextBox tela;
+        private TextBox txtVisor;
     }
 }
