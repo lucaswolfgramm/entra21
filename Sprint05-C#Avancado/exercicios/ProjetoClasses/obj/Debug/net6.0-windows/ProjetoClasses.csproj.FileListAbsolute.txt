@@ -1,0 +1,17 @@
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\bin\Debug\net6.0-windows\ProjetoClasses.exe
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\bin\Debug\net6.0-windows\ProjetoClasses.deps.json
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\bin\Debug\net6.0-windows\ProjetoClasses.runtimeconfig.json
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\bin\Debug\net6.0-windows\ProjetoClasses.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\bin\Debug\net6.0-windows\ProjetoClasses.pdb
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.csproj.AssemblyReference.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.Form1.resources
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.csproj.GenerateResource.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.AssemblyInfoInputs.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.AssemblyInfo.cs
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.csproj.CoreCompileInputs.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\refint\ProjetoClasses.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.pdb
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ProjetoClasses.genruntimeconfig.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\ProjetoClasses\obj\Debug\net6.0-windows\ref\ProjetoClasses.dll
