@@ -1,0 +1,17 @@
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\bin\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.exe
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\bin\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.deps.json
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\bin\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.runtimeconfig.json
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\bin\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\bin\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.pdb
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.csproj.AssemblyReference.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.Form1.resources
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.csproj.GenerateResource.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.AssemblyInfoInputs.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.AssemblyInfo.cs
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.csproj.CoreCompileInputs.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\refint\Heranca_Pessoa_Professor_Aluno.dll
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.pdb
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\Heranca_Pessoa_Professor_Aluno.genruntimeconfig.cache
+C:\Users\guest01\Documents\Lucas Wolfgramm\Sprint05-C#Avancado\exercicios\Heranca_Pessoa_Professor_Aluno\obj\Debug\net6.0-windows\ref\Heranca_Pessoa_Professor_Aluno.dll
