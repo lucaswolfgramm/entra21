@@ -34,5 +34,18 @@ namespace Heranca_Pessoa_Professor_Aluno
                 return media = float.Parse(String.Format("{0:0.00}", soma / 3));
             }
         }
+
+        public bool verificaNotaInformada(float numero)
+        {
+            if (numero > 10)
+            {
+                MessageBox.Show("Informe um valor menor ou igual à 10", "Tela de Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }

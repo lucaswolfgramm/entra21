@@ -222,6 +222,7 @@
             this.txtNotaUm.Name = "txtNotaUm";
             this.txtNotaUm.Size = new System.Drawing.Size(118, 25);
             this.txtNotaUm.TabIndex = 20;
+            this.txtNotaUm.Leave += new System.EventHandler(this.txtNotaUm_Leave);
             // 
             // lblNotaTres
             // 
@@ -262,6 +263,7 @@
             this.txtCPF.Size = new System.Drawing.Size(237, 29);
             this.txtCPF.TabIndex = 14;
             this.txtCPF.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.txtCPF.Leave += new System.EventHandler(this.txtCPF_Leave);
             // 
             // lblCPF
             // 

@@ -78,5 +78,27 @@ namespace Heranca_Pessoa_Professor_Aluno
                 MessageBox.Show("Erro na aplicação. \n Contate o suporte!", "Erro", MessageBoxButtons.OK);
             }
         }
+
+        private void txtNotaUm_Leave(object sender, EventArgs e)
+        {
+            if(txtNotaUm.Text.Replace(",", string.Empty).Replace(" ", string.Empty) != "")
+            {
+                MessageBox.Show(txtNotaUm.Text);
+                float numero = float.Parse(txtNotaUm.Text);
+                bool status = aluno.verificaNotaInformada(numero);
+                if (!status)
+                {
+                    txtNotaUm.Text = "";
+                }
+            }
+        }
+
+        private void txtCPF_Leave(object sender, EventArgs e)
+        {
+            if (!pessoa.validarCPF(txtCPF.Text))
+            {
+                MessageBox.Show("O número é um CPF Inválido !");
+            }
+        }
     }
 }
