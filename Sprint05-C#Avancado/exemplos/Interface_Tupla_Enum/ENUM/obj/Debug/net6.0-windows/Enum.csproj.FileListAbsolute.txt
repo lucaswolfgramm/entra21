@@ -1,0 +1,17 @@
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\bin\Debug\net6.0-windows\Enum.exe
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\bin\Debug\net6.0-windows\Enum.deps.json
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\bin\Debug\net6.0-windows\Enum.runtimeconfig.json
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\bin\Debug\net6.0-windows\Enum.dll
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\bin\Debug\net6.0-windows\Enum.pdb
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.csproj.AssemblyReference.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.Form1.resources
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.csproj.GenerateResource.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.AssemblyInfoInputs.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.AssemblyInfo.cs
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.csproj.CoreCompileInputs.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.dll
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\refint\Enum.dll
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.pdb
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\Enum.genruntimeconfig.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Enum\obj\Debug\net6.0-windows\ref\Enum.dll

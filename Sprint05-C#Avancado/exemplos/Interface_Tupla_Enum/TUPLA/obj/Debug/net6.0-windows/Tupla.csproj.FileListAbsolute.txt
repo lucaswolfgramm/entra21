@@ -1,0 +1,17 @@
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\bin\Debug\net6.0-windows\Tupla.exe
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\bin\Debug\net6.0-windows\Tupla.deps.json
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\bin\Debug\net6.0-windows\Tupla.runtimeconfig.json
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\bin\Debug\net6.0-windows\Tupla.dll
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\bin\Debug\net6.0-windows\Tupla.pdb
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.csproj.AssemblyReference.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.Form1.resources
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.csproj.GenerateResource.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.AssemblyInfoInputs.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.AssemblyInfo.cs
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.csproj.CoreCompileInputs.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.dll
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\refint\Tupla.dll
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.pdb
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\Tupla.genruntimeconfig.cache
+C:\Users\clawe\Documents\Visual Studio 2022\Novos_Exemplos\Tupla\obj\Debug\net6.0-windows\ref\Tupla.dll
