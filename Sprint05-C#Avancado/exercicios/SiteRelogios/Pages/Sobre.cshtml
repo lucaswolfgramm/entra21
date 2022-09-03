@@ -1,0 +1,29 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Sobre";
+}
+<h1>@ViewData["Title"] a empresa</h1>
+<p>A Relógios de Fabrica se desenvolve rapidamente em torno de uma filosofia: inovar e oferecer ao maior número de consumidores possível os produtos da mais alta qualidade ao melhor preço direto de fabrica.</p>
+<p>Uma filosofia que incorpora a certeza de qualidade, originalidade e valores acessíveis, com as melhores parceiras financeiras para te dar credibilidade na hora das compras parceladas.</p>
+
+<div class="divGroup row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div id="divMapa" class="divContent col-lg-6">
+          <iframe id="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d893.9346447482085!2d-48.85826167075141!3d-26.33496329704182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb0ed0c892f0f%3A0xfa10eda59c3af4c8!2sCopacabana%2C%201244%20-%20Floresta!5e0!3m2!1spt-BR!2sbr!4v1654727129708!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
